@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.appointment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+}
+.content-card {
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 80%;
+}
+.details-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #171f46;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.label {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 2px;
+}
+.title-input {
+  outline: none;
+  border-color: #b5b7c4;
+  margin-bottom: 10px;
+  height: 28px;
+}
+.date-input {
+  color: #171f46;
+  outline: none;
+  border-color: #b5b7c4;
+  margin-bottom: 10px;
+  height: 28px;
+}
+.button {
+  border-radius: 7px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  height: 35px;
+  width: 59px;
+  outline: none;
+  border: none;
+}
+.image {
+  width: 200px;
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+}
+.starred-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-heading {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.btn-starred {
+  width: 95px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  border-radius: 12px;
+  color: #8b5cf6;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.change {
+  background-color: #8b5cf6;
+  color: white;
+}
+.appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+}

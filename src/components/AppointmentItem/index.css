@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.appointment {
+  display: flex;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.content-card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.headings-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-heading {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.appointment-date {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.star-btn {
+  background-color: transparent;
+  border: none;
+}
+.star {
+  width: 18px;
+}
